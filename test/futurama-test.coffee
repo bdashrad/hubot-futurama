@@ -10,7 +10,7 @@ describe 'hubot-futurama', ->
       respond: sinon.spy()
       hear: sinon.spy()
 
-    require('../src/hubot-futurama')(@robot)
+    require('../src/futurama')(@robot)
 
   it 'registers a respond listener for "futurama"', ->
     expect(@robot.respond).to.have.been.calledWithMatch sinon.match((val) ->
