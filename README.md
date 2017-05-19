@@ -10,9 +10,9 @@ See [`src/hubot-futurama.coffee`](src/hubot-futurama.coffee) for full documentat
 
 In hubot project repo, run:
 
-`npm install hubot-hubot-futurama --save`
+`npm install hubot-futurama --save`
 
-Then add **hubot-hubot-futurama** to your `external-scripts.json`:
+Then add **hubot-futurama** to your `external-scripts.json`:
 
 ```json
 [
